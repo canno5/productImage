@@ -5,7 +5,7 @@ const router = require("../server/router/route");
 const fs = require("fs");
 const dotenv = require("dotenv");
 dotenv.config({path:".env"});
-let port = process.env.PORT || 100;
+let port = process.env.PORT;
 
 
 const staticPath = path.join(__dirname, "../server/static");
